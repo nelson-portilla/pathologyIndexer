@@ -1,0 +1,171 @@
+DocumentImpl: 
+  content:WASHINGTON On a half-dozen occasions in the last three years, top-secret information has leaked from the National Security Agency and appeared on the web. Government analysts concluded with alarm that the documents, including intercepted communications from Europe and Japan and the computer code for the NASA hacking tools, had not come from the huge collection taken by Edward J. Snowden.
+
+  defaultAnnots:[AnnotationImpl: id=1; type=Token; features={string=WASHINGTON, length=10, orth=allCaps, kind=word, category=NNP}; start=NodeImpl: id=2; offset=0; end=NodeImpl: id=3; offset=10
+, AnnotationImpl: id=2; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=3; offset=10; end=NodeImpl: id=4; offset=11
+, AnnotationImpl: id=3; type=Token; features={string=On, length=2, orth=upperInitial, kind=word, category=IN}; start=NodeImpl: id=4; offset=11; end=NodeImpl: id=5; offset=13
+, AnnotationImpl: id=4; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=5; offset=13; end=NodeImpl: id=6; offset=14
+, AnnotationImpl: id=5; type=Token; features={string=a, length=1, orth=lowercase, kind=word, category=DT}; start=NodeImpl: id=6; offset=14; end=NodeImpl: id=7; offset=15
+, AnnotationImpl: id=6; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=7; offset=15; end=NodeImpl: id=8; offset=16
+, AnnotationImpl: id=7; type=Token; features={string=half-dozen, length=10, orth=lowercase, kind=word, category=NN}; start=NodeImpl: id=8; offset=16; end=NodeImpl: id=9; offset=26
+, AnnotationImpl: id=8; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=9; offset=26; end=NodeImpl: id=10; offset=27
+, AnnotationImpl: id=9; type=Token; features={string=occasions, length=9, orth=lowercase, kind=word, category=NNS}; start=NodeImpl: id=10; offset=27; end=NodeImpl: id=11; offset=36
+, AnnotationImpl: id=10; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=11; offset=36; end=NodeImpl: id=12; offset=37
+, AnnotationImpl: id=11; type=Token; features={string=in, length=2, orth=lowercase, kind=word, category=IN}; start=NodeImpl: id=12; offset=37; end=NodeImpl: id=13; offset=39
+, AnnotationImpl: id=12; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=13; offset=39; end=NodeImpl: id=14; offset=40
+, AnnotationImpl: id=13; type=Token; features={string=the, length=3, orth=lowercase, kind=word, category=DT}; start=NodeImpl: id=14; offset=40; end=NodeImpl: id=15; offset=43
+, AnnotationImpl: id=14; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=15; offset=43; end=NodeImpl: id=16; offset=44
+, AnnotationImpl: id=15; type=Token; features={string=last, length=4, orth=lowercase, kind=word, category=JJ}; start=NodeImpl: id=16; offset=44; end=NodeImpl: id=17; offset=48
+, AnnotationImpl: id=16; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=17; offset=48; end=NodeImpl: id=18; offset=49
+, AnnotationImpl: id=17; type=Token; features={string=three, length=5, orth=lowercase, kind=word, category=CD}; start=NodeImpl: id=18; offset=49; end=NodeImpl: id=19; offset=54
+, AnnotationImpl: id=18; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=19; offset=54; end=NodeImpl: id=20; offset=55
+, AnnotationImpl: id=19; type=Token; features={string=years, length=5, orth=lowercase, kind=word, category=NNS}; start=NodeImpl: id=20; offset=55; end=NodeImpl: id=21; offset=60
+, AnnotationImpl: id=20; type=Token; features={string=,, length=1, kind=punctuation, category=,}; start=NodeImpl: id=21; offset=60; end=NodeImpl: id=22; offset=61
+, AnnotationImpl: id=21; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=22; offset=61; end=NodeImpl: id=23; offset=62
+, AnnotationImpl: id=22; type=Token; features={string=top-secret, length=10, orth=lowercase, kind=word, category=JJ}; start=NodeImpl: id=23; offset=62; end=NodeImpl: id=24; offset=72
+, AnnotationImpl: id=23; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=24; offset=72; end=NodeImpl: id=25; offset=73
+, AnnotationImpl: id=24; type=Token; features={string=information, length=11, orth=lowercase, kind=word, category=NN}; start=NodeImpl: id=25; offset=73; end=NodeImpl: id=26; offset=84
+, AnnotationImpl: id=25; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=26; offset=84; end=NodeImpl: id=27; offset=85
+, AnnotationImpl: id=26; type=Token; features={string=has, length=3, orth=lowercase, kind=word, category=VBZ}; start=NodeImpl: id=27; offset=85; end=NodeImpl: id=28; offset=88
+, AnnotationImpl: id=27; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=28; offset=88; end=NodeImpl: id=29; offset=89
+, AnnotationImpl: id=28; type=Token; features={string=leaked, length=6, orth=lowercase, kind=word, category=VBN}; start=NodeImpl: id=29; offset=89; end=NodeImpl: id=30; offset=95
+, AnnotationImpl: id=29; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=30; offset=95; end=NodeImpl: id=31; offset=96
+, AnnotationImpl: id=30; type=Token; features={string=from, length=4, orth=lowercase, kind=word, category=IN}; start=NodeImpl: id=31; offset=96; end=NodeImpl: id=32; offset=100
+, AnnotationImpl: id=31; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=32; offset=100; end=NodeImpl: id=33; offset=101
+, AnnotationImpl: id=32; type=Token; features={string=the, length=3, orth=lowercase, kind=word, category=DT}; start=NodeImpl: id=33; offset=101; end=NodeImpl: id=34; offset=104
+, AnnotationImpl: id=33; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=34; offset=104; end=NodeImpl: id=35; offset=105
+, AnnotationImpl: id=34; type=Token; features={string=National, length=8, orth=upperInitial, kind=word, category=NNP}; start=NodeImpl: id=35; offset=105; end=NodeImpl: id=36; offset=113
+, AnnotationImpl: id=35; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=36; offset=113; end=NodeImpl: id=37; offset=114
+, AnnotationImpl: id=36; type=Token; features={string=Security, length=8, orth=upperInitial, kind=word, category=NNP}; start=NodeImpl: id=37; offset=114; end=NodeImpl: id=38; offset=122
+, AnnotationImpl: id=37; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=38; offset=122; end=NodeImpl: id=39; offset=123
+, AnnotationImpl: id=38; type=Token; features={string=Agency, length=6, orth=upperInitial, kind=word, category=NNP}; start=NodeImpl: id=39; offset=123; end=NodeImpl: id=40; offset=129
+, AnnotationImpl: id=39; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=40; offset=129; end=NodeImpl: id=41; offset=130
+, AnnotationImpl: id=40; type=Token; features={string=and, length=3, orth=lowercase, kind=word, category=CC}; start=NodeImpl: id=41; offset=130; end=NodeImpl: id=42; offset=133
+, AnnotationImpl: id=41; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=42; offset=133; end=NodeImpl: id=43; offset=134
+, AnnotationImpl: id=42; type=Token; features={string=appeared, length=8, orth=lowercase, kind=word, category=VBD}; start=NodeImpl: id=43; offset=134; end=NodeImpl: id=44; offset=142
+, AnnotationImpl: id=43; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=44; offset=142; end=NodeImpl: id=45; offset=143
+, AnnotationImpl: id=44; type=Token; features={string=on, length=2, orth=lowercase, kind=word, category=IN}; start=NodeImpl: id=45; offset=143; end=NodeImpl: id=46; offset=145
+, AnnotationImpl: id=45; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=46; offset=145; end=NodeImpl: id=47; offset=146
+, AnnotationImpl: id=46; type=Token; features={string=the, length=3, orth=lowercase, kind=word, category=DT}; start=NodeImpl: id=47; offset=146; end=NodeImpl: id=48; offset=149
+, AnnotationImpl: id=47; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=48; offset=149; end=NodeImpl: id=49; offset=150
+, AnnotationImpl: id=48; type=Token; features={string=web, length=3, orth=lowercase, kind=word, category=NN}; start=NodeImpl: id=49; offset=150; end=NodeImpl: id=50; offset=153
+, AnnotationImpl: id=49; type=Token; features={string=., length=1, kind=punctuation, category=.}; start=NodeImpl: id=50; offset=153; end=NodeImpl: id=51; offset=154
+, AnnotationImpl: id=50; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=51; offset=154; end=NodeImpl: id=52; offset=155
+, AnnotationImpl: id=51; type=Token; features={string=Government, length=10, orth=upperInitial, kind=word, category=NN}; start=NodeImpl: id=52; offset=155; end=NodeImpl: id=53; offset=165
+, AnnotationImpl: id=52; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=53; offset=165; end=NodeImpl: id=54; offset=166
+, AnnotationImpl: id=53; type=Token; features={string=analysts, length=8, orth=lowercase, kind=word, category=NNS}; start=NodeImpl: id=54; offset=166; end=NodeImpl: id=55; offset=174
+, AnnotationImpl: id=54; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=55; offset=174; end=NodeImpl: id=56; offset=175
+, AnnotationImpl: id=55; type=Token; features={string=concluded, length=9, orth=lowercase, kind=word, category=VBD}; start=NodeImpl: id=56; offset=175; end=NodeImpl: id=57; offset=184
+, AnnotationImpl: id=56; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=57; offset=184; end=NodeImpl: id=58; offset=185
+, AnnotationImpl: id=57; type=Token; features={string=with, length=4, orth=lowercase, kind=word, category=IN}; start=NodeImpl: id=58; offset=185; end=NodeImpl: id=59; offset=189
+, AnnotationImpl: id=58; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=59; offset=189; end=NodeImpl: id=60; offset=190
+, AnnotationImpl: id=59; type=Token; features={string=alarm, length=5, orth=lowercase, kind=word, category=NN}; start=NodeImpl: id=60; offset=190; end=NodeImpl: id=61; offset=195
+, AnnotationImpl: id=60; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=61; offset=195; end=NodeImpl: id=62; offset=196
+, AnnotationImpl: id=61; type=Token; features={string=that, length=4, orth=lowercase, kind=word, category=IN}; start=NodeImpl: id=62; offset=196; end=NodeImpl: id=63; offset=200
+, AnnotationImpl: id=62; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=63; offset=200; end=NodeImpl: id=64; offset=201
+, AnnotationImpl: id=63; type=Token; features={string=the, length=3, orth=lowercase, kind=word, category=DT}; start=NodeImpl: id=64; offset=201; end=NodeImpl: id=65; offset=204
+, AnnotationImpl: id=64; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=65; offset=204; end=NodeImpl: id=66; offset=205
+, AnnotationImpl: id=65; type=Token; features={string=documents, length=9, orth=lowercase, kind=word, category=NNS}; start=NodeImpl: id=66; offset=205; end=NodeImpl: id=67; offset=214
+, AnnotationImpl: id=66; type=Token; features={string=,, length=1, kind=punctuation, category=,}; start=NodeImpl: id=67; offset=214; end=NodeImpl: id=68; offset=215
+, AnnotationImpl: id=67; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=68; offset=215; end=NodeImpl: id=69; offset=216
+, AnnotationImpl: id=68; type=Token; features={string=including, length=9, orth=lowercase, kind=word, category=VBG}; start=NodeImpl: id=69; offset=216; end=NodeImpl: id=70; offset=225
+, AnnotationImpl: id=69; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=70; offset=225; end=NodeImpl: id=71; offset=226
+, AnnotationImpl: id=70; type=Token; features={string=intercepted, length=11, orth=lowercase, kind=word, category=VBN}; start=NodeImpl: id=71; offset=226; end=NodeImpl: id=72; offset=237
+, AnnotationImpl: id=71; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=72; offset=237; end=NodeImpl: id=73; offset=238
+, AnnotationImpl: id=72; type=Token; features={string=communications, length=14, orth=lowercase, kind=word, category=NNS}; start=NodeImpl: id=73; offset=238; end=NodeImpl: id=74; offset=252
+, AnnotationImpl: id=73; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=74; offset=252; end=NodeImpl: id=75; offset=253
+, AnnotationImpl: id=74; type=Token; features={string=from, length=4, orth=lowercase, kind=word, category=IN}; start=NodeImpl: id=75; offset=253; end=NodeImpl: id=76; offset=257
+, AnnotationImpl: id=75; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=76; offset=257; end=NodeImpl: id=77; offset=258
+, AnnotationImpl: id=76; type=Token; features={string=Europe, length=6, orth=upperInitial, kind=word, category=NNP}; start=NodeImpl: id=77; offset=258; end=NodeImpl: id=78; offset=264
+, AnnotationImpl: id=77; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=78; offset=264; end=NodeImpl: id=79; offset=265
+, AnnotationImpl: id=78; type=Token; features={string=and, length=3, orth=lowercase, kind=word, category=CC}; start=NodeImpl: id=79; offset=265; end=NodeImpl: id=80; offset=268
+, AnnotationImpl: id=79; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=80; offset=268; end=NodeImpl: id=81; offset=269
+, AnnotationImpl: id=80; type=Token; features={string=Japan, length=5, orth=upperInitial, kind=word, category=NNP}; start=NodeImpl: id=81; offset=269; end=NodeImpl: id=82; offset=274
+, AnnotationImpl: id=81; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=82; offset=274; end=NodeImpl: id=83; offset=275
+, AnnotationImpl: id=82; type=Token; features={string=and, length=3, orth=lowercase, kind=word, category=CC}; start=NodeImpl: id=83; offset=275; end=NodeImpl: id=84; offset=278
+, AnnotationImpl: id=83; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=84; offset=278; end=NodeImpl: id=85; offset=279
+, AnnotationImpl: id=84; type=Token; features={string=the, length=3, orth=lowercase, kind=word, category=DT}; start=NodeImpl: id=85; offset=279; end=NodeImpl: id=86; offset=282
+, AnnotationImpl: id=85; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=86; offset=282; end=NodeImpl: id=87; offset=283
+, AnnotationImpl: id=86; type=Token; features={string=computer, length=8, orth=lowercase, kind=word, category=NN}; start=NodeImpl: id=87; offset=283; end=NodeImpl: id=88; offset=291
+, AnnotationImpl: id=87; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=88; offset=291; end=NodeImpl: id=89; offset=292
+, AnnotationImpl: id=88; type=Token; features={string=code, length=4, orth=lowercase, kind=word, category=NN}; start=NodeImpl: id=89; offset=292; end=NodeImpl: id=90; offset=296
+, AnnotationImpl: id=89; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=90; offset=296; end=NodeImpl: id=91; offset=297
+, AnnotationImpl: id=90; type=Token; features={string=for, length=3, orth=lowercase, kind=word, category=IN}; start=NodeImpl: id=91; offset=297; end=NodeImpl: id=92; offset=300
+, AnnotationImpl: id=91; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=92; offset=300; end=NodeImpl: id=93; offset=301
+, AnnotationImpl: id=92; type=Token; features={string=the, length=3, orth=lowercase, kind=word, category=DT}; start=NodeImpl: id=93; offset=301; end=NodeImpl: id=94; offset=304
+, AnnotationImpl: id=93; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=94; offset=304; end=NodeImpl: id=95; offset=305
+, AnnotationImpl: id=94; type=Token; features={string=NASA, length=4, orth=allCaps, kind=word, category=NNP}; start=NodeImpl: id=95; offset=305; end=NodeImpl: id=96; offset=309
+, AnnotationImpl: id=95; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=96; offset=309; end=NodeImpl: id=97; offset=310
+, AnnotationImpl: id=96; type=Token; features={string=hacking, length=7, orth=lowercase, kind=word, category=VBG}; start=NodeImpl: id=97; offset=310; end=NodeImpl: id=98; offset=317
+, AnnotationImpl: id=97; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=98; offset=317; end=NodeImpl: id=99; offset=318
+, AnnotationImpl: id=98; type=Token; features={string=tools, length=5, orth=lowercase, kind=word, category=NNS}; start=NodeImpl: id=99; offset=318; end=NodeImpl: id=100; offset=323
+, AnnotationImpl: id=99; type=Token; features={string=,, length=1, kind=punctuation, category=,}; start=NodeImpl: id=100; offset=323; end=NodeImpl: id=101; offset=324
+, AnnotationImpl: id=100; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=101; offset=324; end=NodeImpl: id=102; offset=325
+, AnnotationImpl: id=101; type=Token; features={string=had, length=3, orth=lowercase, kind=word, category=VBD}; start=NodeImpl: id=102; offset=325; end=NodeImpl: id=103; offset=328
+, AnnotationImpl: id=102; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=103; offset=328; end=NodeImpl: id=104; offset=329
+, AnnotationImpl: id=103; type=Token; features={string=not, length=3, orth=lowercase, kind=word, category=RB}; start=NodeImpl: id=104; offset=329; end=NodeImpl: id=105; offset=332
+, AnnotationImpl: id=104; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=105; offset=332; end=NodeImpl: id=106; offset=333
+, AnnotationImpl: id=105; type=Token; features={string=come, length=4, orth=lowercase, kind=word, category=VB}; start=NodeImpl: id=106; offset=333; end=NodeImpl: id=107; offset=337
+, AnnotationImpl: id=106; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=107; offset=337; end=NodeImpl: id=108; offset=338
+, AnnotationImpl: id=107; type=Token; features={string=from, length=4, orth=lowercase, kind=word, category=IN}; start=NodeImpl: id=108; offset=338; end=NodeImpl: id=109; offset=342
+, AnnotationImpl: id=108; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=109; offset=342; end=NodeImpl: id=110; offset=343
+, AnnotationImpl: id=109; type=Token; features={string=the, length=3, orth=lowercase, kind=word, category=DT}; start=NodeImpl: id=110; offset=343; end=NodeImpl: id=111; offset=346
+, AnnotationImpl: id=110; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=111; offset=346; end=NodeImpl: id=112; offset=347
+, AnnotationImpl: id=111; type=Token; features={string=huge, length=4, orth=lowercase, kind=word, category=JJ}; start=NodeImpl: id=112; offset=347; end=NodeImpl: id=113; offset=351
+, AnnotationImpl: id=112; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=113; offset=351; end=NodeImpl: id=114; offset=352
+, AnnotationImpl: id=113; type=Token; features={string=collection, length=10, orth=lowercase, kind=word, category=NN}; start=NodeImpl: id=114; offset=352; end=NodeImpl: id=115; offset=362
+, AnnotationImpl: id=114; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=115; offset=362; end=NodeImpl: id=116; offset=363
+, AnnotationImpl: id=115; type=Token; features={string=taken, length=5, orth=lowercase, kind=word, category=VBN}; start=NodeImpl: id=116; offset=363; end=NodeImpl: id=117; offset=368
+, AnnotationImpl: id=116; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=117; offset=368; end=NodeImpl: id=118; offset=369
+, AnnotationImpl: id=117; type=Token; features={string=by, length=2, orth=lowercase, kind=word, category=IN}; start=NodeImpl: id=118; offset=369; end=NodeImpl: id=119; offset=371
+, AnnotationImpl: id=118; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=119; offset=371; end=NodeImpl: id=120; offset=372
+, AnnotationImpl: id=119; type=Token; features={string=Edward, length=6, orth=upperInitial, kind=word, category=NNP}; start=NodeImpl: id=120; offset=372; end=NodeImpl: id=121; offset=378
+, AnnotationImpl: id=120; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=121; offset=378; end=NodeImpl: id=122; offset=379
+, AnnotationImpl: id=121; type=Token; features={string=J, length=1, orth=upperInitial, kind=word, category=NNP}; start=NodeImpl: id=122; offset=379; end=NodeImpl: id=123; offset=380
+, AnnotationImpl: id=122; type=Token; features={string=., length=1, kind=punctuation, category=., ortho_stop=true}; start=NodeImpl: id=123; offset=380; end=NodeImpl: id=124; offset=381
+, AnnotationImpl: id=123; type=SpaceToken; features={string= , length=1, kind=space}; start=NodeImpl: id=124; offset=381; end=NodeImpl: id=125; offset=382
+, AnnotationImpl: id=124; type=Token; features={string=Snowden, length=7, orth=upperInitial, kind=word, category=NNP}; start=NodeImpl: id=125; offset=382; end=NodeImpl: id=126; offset=389
+, AnnotationImpl: id=125; type=Token; features={string=., length=1, kind=punctuation, category=.}; start=NodeImpl: id=126; offset=389; end=NodeImpl: id=127; offset=390
+, AnnotationImpl: id=127; type=SpaceToken; features={kind=control, string=
+, length=1}; start=NodeImpl: id=127; offset=390; end=NodeImpl: id=128; offset=391
+, AnnotationImpl: id=128; type=Lookup; features={majorType=location, minorType=city}; start=NodeImpl: id=2; offset=0; end=NodeImpl: id=3; offset=10
+, AnnotationImpl: id=129; type=Lookup; features={majorType=date_unit}; start=NodeImpl: id=8; offset=16; end=NodeImpl: id=129; offset=20
+, AnnotationImpl: id=130; type=Lookup; features={majorType=country_code}; start=NodeImpl: id=12; offset=37; end=NodeImpl: id=13; offset=39
+, AnnotationImpl: id=131; type=Lookup; features={majorType=time_modifier}; start=NodeImpl: id=16; offset=44; end=NodeImpl: id=17; offset=48
+, AnnotationImpl: id=132; type=Lookup; features={majorType=time, minorType=hour}; start=NodeImpl: id=18; offset=49; end=NodeImpl: id=19; offset=54
+, AnnotationImpl: id=133; type=Lookup; features={majorType=number}; start=NodeImpl: id=18; offset=49; end=NodeImpl: id=19; offset=54
+, AnnotationImpl: id=134; type=Lookup; features={majorType=date_unit}; start=NodeImpl: id=20; offset=55; end=NodeImpl: id=21; offset=60
+, AnnotationImpl: id=135; type=Lookup; features={majorType=govern_key}; start=NodeImpl: id=35; offset=105; end=NodeImpl: id=36; offset=113
+, AnnotationImpl: id=136; type=Lookup; features={majorType=org_pre}; start=NodeImpl: id=35; offset=105; end=NodeImpl: id=36; offset=113
+, AnnotationImpl: id=137; type=Lookup; features={majorType=org_base}; start=NodeImpl: id=39; offset=123; end=NodeImpl: id=40; offset=129
+, AnnotationImpl: id=138; type=Lookup; features={majorType=organization, minorType=government}; start=NodeImpl: id=52; offset=155; end=NodeImpl: id=53; offset=165
+, AnnotationImpl: id=139; type=Lookup; features={majorType=location, minorType=region}; start=NodeImpl: id=77; offset=258; end=NodeImpl: id=78; offset=264
+, AnnotationImpl: id=140; type=Lookup; features={majorType=location, minorType=country}; start=NodeImpl: id=81; offset=269; end=NodeImpl: id=82; offset=274
+, AnnotationImpl: id=141; type=Lookup; features={majorType=organization, minorType=government}; start=NodeImpl: id=95; offset=305; end=NodeImpl: id=96; offset=309
+, AnnotationImpl: id=142; type=Lookup; features={majorType=country_code}; start=NodeImpl: id=118; offset=369; end=NodeImpl: id=119; offset=371
+, AnnotationImpl: id=143; type=Lookup; features={majorType=person_first, minorType=male}; start=NodeImpl: id=120; offset=372; end=NodeImpl: id=121; offset=378
+, AnnotationImpl: id=144; type=Split; features={kind=internal}; start=NodeImpl: id=50; offset=153; end=NodeImpl: id=51; offset=154
+, AnnotationImpl: id=145; type=Split; features={kind=internal}; start=NodeImpl: id=126; offset=389; end=NodeImpl: id=127; offset=390
+, AnnotationImpl: id=146; type=Split; features={kind=external}; start=NodeImpl: id=127; offset=390; end=NodeImpl: id=128; offset=391
+, AnnotationImpl: id=147; type=Sentence; features={}; start=NodeImpl: id=2; offset=0; end=NodeImpl: id=51; offset=154
+, AnnotationImpl: id=148; type=Sentence; features={}; start=NodeImpl: id=52; offset=155; end=NodeImpl: id=127; offset=390
+, AnnotationImpl: id=190; type=Location; features={locType=city, rule=Location1, ruleFinal=LocFinal}; start=NodeImpl: id=2; offset=0; end=NodeImpl: id=3; offset=10
+, AnnotationImpl: id=191; type=Date; features={rule=ModifierDate, ruleFinal=DateOnlyFinal, kind=date}; start=NodeImpl: id=16; offset=44; end=NodeImpl: id=21; offset=60
+, AnnotationImpl: id=192; type=Organization; features={orgType=unknown, rule=TheOrgXBase, ruleFinal=OrgFinal}; start=NodeImpl: id=35; offset=105; end=NodeImpl: id=40; offset=129
+, AnnotationImpl: id=193; type=Organization; features={orgType=government, rule=GazOrganization, ruleFinal=OrgFinal}; start=NodeImpl: id=52; offset=155; end=NodeImpl: id=53; offset=165
+, AnnotationImpl: id=194; type=Location; features={locType=region, rule=Location1, ruleFinal=LocFinal}; start=NodeImpl: id=77; offset=258; end=NodeImpl: id=78; offset=264
+, AnnotationImpl: id=195; type=Location; features={locType=country, rule=Location1, ruleFinal=LocFinal}; start=NodeImpl: id=81; offset=269; end=NodeImpl: id=82; offset=274
+, AnnotationImpl: id=196; type=Organization; features={orgType=government, rule=GazOrganization, ruleFinal=OrgFinal}; start=NodeImpl: id=95; offset=305; end=NodeImpl: id=96; offset=309
+, AnnotationImpl: id=197; type=Person; features={firstName=Edward, gender=male, initials=J., surname=Snowden, kind=fullName, rule=PersonFull, ruleFinal=PersonFinal}; start=NodeImpl: id=120; offset=372; end=NodeImpl: id=126; offset=389
+]
+  encoding:UTF-8
+  features:{gate.SourceURL=file:/home/nelson/Documentos/gatedocuments/texto_con_ner.txt, MimeType=text/plain, docNewLineType=}
+  markupAware:true
+  namedAnnotSets:{Original markups=[AnnotationImpl: id=0; type=paragraph; features={}; start=NodeImpl: id=0; offset=0; end=NodeImpl: id=1; offset=391
+]}
+  nextAnnotationId:198
+  nextNodeId:130
+  sourceUrl:file:/home/nelson/Documentos/gatedocuments/texto_con_ner.txt
+  sourceUrlStartOffset:null
+  sourceUrlEndOffset:null
+

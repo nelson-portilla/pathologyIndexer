@@ -1,0 +1,8 @@
+#app_name:hover
+{
+	text-shadow: 2px 2px 20px blue;
+}
+#boton_busqueda
+{
+	margin-top: 10px;
+}
