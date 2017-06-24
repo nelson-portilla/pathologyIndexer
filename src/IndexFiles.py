@@ -13,6 +13,9 @@ from org.apache.lucene.index import \
     FieldInfo, IndexWriter, IndexWriterConfig, IndexOptions
 from org.apache.lucene.store import SimpleFSDirectory
 
+import textract
+
+
 """
 This class is loosely based on the Lucene (java implementation) demo class
 org.apache.lucene.demo.IndexFiles.  It will take a directory as an argument
@@ -75,13 +78,14 @@ class IndexFiles(object):
         contador=0
         for root, dirnames, filenames in os.walk(root):
             for filename in filenames:
-                if not filename.endswith('.txt'):
+                if not filename.endswith('.pdf'):
                     continue
                 print "adding", filename
                 try:
                     path = os.path.join(root, filename)
                     file = open(path)
-                    contents = unicode(file.read(), 'iso-8859-1')
+                    #contents = unicode(file.read(), 'iso-8859-1')
+                    contents = textract.process(path, method="pdfminer")
                     file.close()
                     doc = Document()
                     doc.add(Field("name", filename, t1))
