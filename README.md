@@ -1,20 +1,23 @@
 # pathologyIndexer
 Pathology indexer web system built on python and lucene. Open a browser, set your folder and search by key words. 
 
-##project status: 
+## project status: 
 
 `Development`
 
-##Requeriments:
+## Requeriments:
 
-_Install Apache Lucene latest version_
-_Install python 2.x_
-_Install Java 8_
-_SO: Linux (preliminar)_
+* _Install Apache Lucene latest version_ 
+
+* _Install python 2.x_
+
+* _Install Java 8_
+
+* _SO: Linux (preliminar)_
 
 ## Getting started 
 
-###Install packages
+### Install packages
 
 ```apt-get install python-dev libxml2-dev libxslt1-dev antiword unrtf poppler-utils pstotext tesseract-ocr flac ffmpeg lame libmad0 libsox-fmt-mp3 sox libjpeg-dev swig```
 
