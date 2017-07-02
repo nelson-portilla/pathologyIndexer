@@ -2,7 +2,13 @@
 {
 	text-shadow: 2px 2px 20px blue;
 }
-#boton_busqueda
+#boton_busqueda:hover
 {
-	margin-top: 10px;
+	box-shadow: 0 0 20px 0px black;
+
+}
+#boton_indexar:hover
+{
+	box-shadow: 0 0 20px 0px green;
+
 }

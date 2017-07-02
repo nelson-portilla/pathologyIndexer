@@ -5,6 +5,9 @@ INDEX_DIR = "IndexFiles.index"
 import sys, os, lucene, threading, time
 from datetime import datetime
 
+import logging
+from docs.config import *
+
 from java.nio.file import Paths
 from org.apache.lucene.analysis.miscellaneous import LimitTokenCountAnalyzer
 from org.apache.lucene.analysis.standard import StandardAnalyzer
@@ -72,7 +75,7 @@ class IndexFiles(object):
         t1.setIndexOptions(IndexOptions.DOCS_AND_FREQS)
 
         t2 = FieldType()
-        t2.setStored(False)
+        t2.setStored(True)
         t2.setTokenized(True)
         t2.setIndexOptions(IndexOptions.DOCS_AND_FREQS_AND_POSITIONS)
         contador=0
@@ -83,13 +86,15 @@ class IndexFiles(object):
                 print "adding", filename
                 try:
                     path = os.path.join(root, filename)
+                    base_path = os.path.join(DATA_PATH, filename)
                     file = open(path)
                     #contents = unicode(file.read(), 'iso-8859-1')
                     contents = textract.process(path, method="pdfminer")
                     file.close()
                     doc = Document()
                     doc.add(Field("name", filename, t1))
-                    doc.add(Field("path", root, t1))
+                    doc.add(Field("path", base_path, t1))
+                    #print contents
                     if len(contents) > 0:
                         doc.add(Field("contents", contents, t2))
                         contador+=1

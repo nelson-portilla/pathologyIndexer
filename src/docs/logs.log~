@@ -1,0 +1,178 @@
+INFO[07/01/2017 05:18:03 PM]: Archvo de log creado
+INFO[07/01/2017 05:18:03 PM]:  * Running on http://0.0.0.0:8888/ (Press CTRL+C to quit)
+INFO[07/01/2017 05:18:03 PM]:  * Restarting with stat
+INFO[07/01/2017 05:18:04 PM]: Archvo de log creado
+WARNING[07/01/2017 05:18:04 PM]:  * Debugger is active!
+INFO[07/01/2017 05:18:04 PM]:  * Debugger pin code: 286-912-043
+INFO[07/01/2017 05:19:51 PM]: Archvo de log creado
+INFO[07/01/2017 05:19:51 PM]:  * Running on http://0.0.0.0:8888/ (Press CTRL+C to quit)
+INFO[07/01/2017 05:19:51 PM]:  * Restarting with stat
+INFO[07/01/2017 05:19:52 PM]: Archvo de log creado
+WARNING[07/01/2017 05:19:52 PM]:  * Debugger is active!
+INFO[07/01/2017 05:19:52 PM]:  * Debugger pin code: 286-912-043
+INFO[07/01/2017 05:20:09 PM]: 127.0.0.1 - - [01/Jul/2017 17:20:09] "GET / HTTP/1.1" 200 -
+INFO[07/01/2017 05:20:10 PM]: 127.0.0.1 - - [01/Jul/2017 17:20:10] "GET /static/stylepathology.css HTTP/1.1" 200 -
+INFO[07/01/2017 05:20:10 PM]: 127.0.0.1 - - [01/Jul/2017 17:20:10] "GET /static/pathology_logo.png HTTP/1.1" 200 -
+INFO[07/01/2017 05:20:10 PM]: 127.0.0.1 - - [01/Jul/2017 17:20:10] "GET /static/fondo.jpg HTTP/1.1" 200 -
+INFO[07/01/2017 05:20:10 PM]: 127.0.0.1 - - [01/Jul/2017 17:20:10] "GET /favicon.ico HTTP/1.1" 404 -
+INFO[07/01/2017 05:20:15 PM]: Ingresando en la vista principal de la busqueda
+INFO[07/01/2017 05:20:15 PM]: 127.0.0.1 - - [01/Jul/2017 17:20:15] "GET /search HTTP/1.1" 200 -
+INFO[07/01/2017 05:20:15 PM]: 127.0.0.1 - - [01/Jul/2017 17:20:15] "GET /static/stylesearchpatho.css HTTP/1.1" 200 -
+INFO[07/01/2017 05:20:21 PM]: 127.0.0.1 - - [01/Jul/2017 17:20:21] "GET / HTTP/1.1" 200 -
+INFO[07/01/2017 05:20:23 PM]: Obteniendo ambiente de lucene en obtener
+INFO[07/01/2017 05:20:23 PM]: Creando hilo en el ambiente en obtener
+INFO[07/01/2017 05:20:23 PM]: Llamando a IndexFiles.inicializar con: pathologyIndexer_Data/,/home/nelson/Documentos/pathologyIndexer/index,StandardAnalyzer
+INFO[07/01/2017 05:20:23 PM]: Renderizando template en la indexacion
+INFO[07/01/2017 05:20:23 PM]: 127.0.0.1 - - [01/Jul/2017 17:20:23] "POST / HTTP/1.1" 200 -
+INFO[07/01/2017 05:23:22 PM]: Archvo de log creado
+INFO[07/01/2017 05:23:22 PM]:  * Running on http://0.0.0.0:8888/ (Press CTRL+C to quit)
+INFO[07/01/2017 05:23:22 PM]:  * Restarting with stat
+INFO[07/01/2017 05:23:23 PM]: Archvo de log creado
+WARNING[07/01/2017 05:23:23 PM]:  * Debugger is active!
+INFO[07/01/2017 05:23:23 PM]:  * Debugger pin code: 286-912-043
+INFO[07/01/2017 05:23:25 PM]: 127.0.0.1 - - [01/Jul/2017 17:23:25] "GET / HTTP/1.1" 200 -
+INFO[07/01/2017 05:23:27 PM]: Obteniendo ambiente de lucene en obtener
+INFO[07/01/2017 05:23:27 PM]: Creando hilo en el ambiente en obtener
+INFO[07/01/2017 05:23:27 PM]: Llamando a IndexFiles.inicializar con: pathologyIndexer_Data/,/home/nelson/Documentos/pathologyIndexer/index,StandardAnalyzer
+INFO[07/01/2017 05:23:32 PM]: Renderizando template en la indexacion
+INFO[07/01/2017 05:23:32 PM]: 127.0.0.1 - - [01/Jul/2017 17:23:32] "POST / HTTP/1.1" 200 -
+INFO[07/01/2017 05:23:36 PM]: Ingresando en la vista principal de la busqueda
+INFO[07/01/2017 05:23:36 PM]: 127.0.0.1 - - [01/Jul/2017 17:23:36] "GET /search HTTP/1.1" 200 -
+INFO[07/01/2017 05:23:42 PM]: Ingresando en la peticion para busqueda
+INFO[07/01/2017 05:23:42 PM]: palabra buscada: diego
+INFO[07/01/2017 05:23:42 PM]: Obteniendo ambiente de lucene en busqueda
+INFO[07/01/2017 05:23:42 PM]: Creando hilo en el ambiente en busqueda
+INFO[07/01/2017 05:23:42 PM]: Llamando a SimpleFSDirectory
+INFO[07/01/2017 05:23:42 PM]: Llamando a IndexSearcher
+INFO[07/01/2017 05:23:42 PM]: Llamando a StandardAnalyzer
+INFO[07/01/2017 05:23:42 PM]: Buscando palabra: diego
+INFO[07/01/2017 05:23:42 PM]: Obteniendo la lista de nombres: [[u'pato1.pdf', u'/var/www/html/pathologyIndexer_Data//pato1.pdf', u'P\xe1gina 1\n\nInforme: 172-198\n\nNombres\n\nIdentificaci\xf3n:      \n\nTel\xe9fono\n\nEstudio\n\n(EXO-ENDO)EST COL BAS BPS VAR X1+EST COL BAS BPS UNA X1\n\nComfandi\n\nFecha entrega: viernes, 13 de Mayo de 2016\n\nEdad\n\n43\n\nG\xe9nero: F\n\nRemite <B>Diego</B> G\xf3mez\n\nDIAGN\xd3STICO\n\nEspecimen A) Rotulado "Exoc\xe9rvix". Biopsias.\nEspecimen']]
+INFO[07/01/2017 05:23:42 PM]: Renderizando template de busqueda con resultado
+INFO[07/01/2017 05:23:42 PM]: 127.0.0.1 - - [01/Jul/2017 17:23:42] "POST /search HTTP/1.1" 200 -
+INFO[07/01/2017 05:23:51 PM]: 127.0.0.1 - - [01/Jul/2017 17:23:51] "GET /localhost/var/www/html/pathologyIndexer_Data//pato1.pdf HTTP/1.1" 404 -
+INFO[07/01/2017 05:33:41 PM]: Archvo de log creado
+INFO[07/01/2017 05:33:41 PM]:  * Running on http://0.0.0.0:8888/ (Press CTRL+C to quit)
+INFO[07/01/2017 05:33:41 PM]:  * Restarting with stat
+INFO[07/01/2017 05:33:42 PM]: Archvo de log creado
+WARNING[07/01/2017 05:33:42 PM]:  * Debugger is active!
+INFO[07/01/2017 05:33:42 PM]:  * Debugger pin code: 286-912-043
+INFO[07/01/2017 05:33:52 PM]: 127.0.0.1 - - [01/Jul/2017 17:33:52] "GET / HTTP/1.1" 200 -
+INFO[07/01/2017 05:33:55 PM]: Obteniendo ambiente de lucene en indexar
+INFO[07/01/2017 05:33:55 PM]: Creando hilo en el ambiente en indexar
+INFO[07/01/2017 05:33:55 PM]: Llamando a IndexFiles.inicializar con: pathologyIndexer_Data,/home/nelson/Documentos/pathologyIndexer/index,StandardAnalyzer
+INFO[07/01/2017 05:33:59 PM]: Renderizando template en la indexacion
+INFO[07/01/2017 05:33:59 PM]: 127.0.0.1 - - [01/Jul/2017 17:33:59] "POST / HTTP/1.1" 200 -
+INFO[07/01/2017 05:34:03 PM]: Ingresando en la vista principal de la busqueda
+INFO[07/01/2017 05:34:03 PM]: 127.0.0.1 - - [01/Jul/2017 17:34:03] "GET /search HTTP/1.1" 200 -
+INFO[07/01/2017 05:34:06 PM]: Ingresando en la peticion para busqueda
+INFO[07/01/2017 05:34:06 PM]: palabra buscada: diego
+INFO[07/01/2017 05:34:06 PM]: Obteniendo ambiente de lucene en busqueda
+INFO[07/01/2017 05:34:06 PM]: Creando hilo en el ambiente en busqueda
+INFO[07/01/2017 05:34:06 PM]: Llamando a SimpleFSDirectory
+INFO[07/01/2017 05:34:06 PM]: Llamando a IndexSearcher
+INFO[07/01/2017 05:34:06 PM]: Llamando a StandardAnalyzer
+INFO[07/01/2017 05:34:06 PM]: Buscando palabra: diego
+INFO[07/01/2017 05:34:06 PM]: Obteniendo la lista de nombres: [[u'pato1.pdf', u'pathologyIndexer_Data/pato1.pdf/pato1.pdf', u'P\xe1gina 1\n\nInforme: 172-198\n\nNombres\n\nIdentificaci\xf3n:      \n\nTel\xe9fono\n\nEstudio\n\n(EXO-ENDO)EST COL BAS BPS VAR X1+EST COL BAS BPS UNA X1\n\nComfandi\n\nFecha entrega: viernes, 13 de Mayo de 2016\n\nEdad\n\n43\n\nG\xe9nero: F\n\nRemite <B>Diego</B> G\xf3mez\n\nDIAGN\xd3STICO\n\nEspecimen A) Rotulado "Exoc\xe9rvix". Biopsias.\nEspecimen']]
+INFO[07/01/2017 05:34:06 PM]: Renderizando template de busqueda con resultado
+INFO[07/01/2017 05:34:06 PM]: 127.0.0.1 - - [01/Jul/2017 17:34:06] "POST /search HTTP/1.1" 200 -
+INFO[07/01/2017 05:35:12 PM]: Ingresando en la peticion para busqueda
+INFO[07/01/2017 05:35:12 PM]: palabra buscada: 
+INFO[07/01/2017 05:35:12 PM]: Obteniendo ambiente de lucene en busqueda
+INFO[07/01/2017 05:35:12 PM]: Creando hilo en el ambiente en busqueda
+INFO[07/01/2017 05:35:12 PM]: Llamando a SimpleFSDirectory
+INFO[07/01/2017 05:35:12 PM]: Llamando a IndexSearcher
+INFO[07/01/2017 05:35:12 PM]: Llamando a StandardAnalyzer
+INFO[07/01/2017 05:35:12 PM]: Buscando palabra: 
+INFO[07/01/2017 05:35:12 PM]: 127.0.0.1 - - [01/Jul/2017 17:35:12] "POST /search HTTP/1.1" 500 -
+INFO[07/01/2017 05:35:12 PM]: 127.0.0.1 - - [01/Jul/2017 17:35:12] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO[07/01/2017 05:35:12 PM]: 127.0.0.1 - - [01/Jul/2017 17:35:12] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO[07/01/2017 05:35:12 PM]: 127.0.0.1 - - [01/Jul/2017 17:35:12] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO[07/01/2017 05:35:12 PM]: 127.0.0.1 - - [01/Jul/2017 17:35:12] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO[07/01/2017 05:35:13 PM]: 127.0.0.1 - - [01/Jul/2017 17:35:13] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO[07/01/2017 05:35:16 PM]: Ingresando en la peticion para busqueda
+INFO[07/01/2017 05:35:16 PM]: palabra buscada: diego
+INFO[07/01/2017 05:35:16 PM]: Obteniendo ambiente de lucene en busqueda
+INFO[07/01/2017 05:35:16 PM]: Creando hilo en el ambiente en busqueda
+INFO[07/01/2017 05:35:16 PM]: Llamando a SimpleFSDirectory
+INFO[07/01/2017 05:35:16 PM]: Llamando a IndexSearcher
+INFO[07/01/2017 05:35:16 PM]: Llamando a StandardAnalyzer
+INFO[07/01/2017 05:35:16 PM]: Buscando palabra: diego
+INFO[07/01/2017 05:35:16 PM]: Obteniendo la lista de nombres: [[u'pato1.pdf', u'pathologyIndexer_Data/pato1.pdf/pato1.pdf', u'P\xe1gina 1\n\nInforme: 172-198\n\nNombres\n\nIdentificaci\xf3n:      \n\nTel\xe9fono\n\nEstudio\n\n(EXO-ENDO)EST COL BAS BPS VAR X1+EST COL BAS BPS UNA X1\n\nComfandi\n\nFecha entrega: viernes, 13 de Mayo de 2016\n\nEdad\n\n43\n\nG\xe9nero: F\n\nRemite <B>Diego</B> G\xf3mez\n\nDIAGN\xd3STICO\n\nEspecimen A) Rotulado "Exoc\xe9rvix". Biopsias.\nEspecimen']]
+INFO[07/01/2017 05:35:16 PM]: Renderizando template de busqueda con resultado
+INFO[07/01/2017 05:35:16 PM]: 127.0.0.1 - - [01/Jul/2017 17:35:16] "POST /search HTTP/1.1" 200 -
+INFO[07/01/2017 05:39:01 PM]:  * Detected change in '/home/nelson/Documentos/pathologyIndexer/src/IndexFiles.py', reloading
+INFO[07/01/2017 05:39:01 PM]:  * Restarting with stat
+INFO[07/01/2017 05:39:02 PM]: Archvo de log creado
+WARNING[07/01/2017 05:39:02 PM]:  * Debugger is active!
+INFO[07/01/2017 05:39:02 PM]:  * Debugger pin code: 286-912-043
+INFO[07/01/2017 05:39:09 PM]: Ingresando en la vista principal de la busqueda
+INFO[07/01/2017 05:39:09 PM]: 127.0.0.1 - - [01/Jul/2017 17:39:09] "GET /search HTTP/1.1" 200 -
+INFO[07/01/2017 05:39:14 PM]: Ingresando en la peticion para busqueda
+INFO[07/01/2017 05:39:14 PM]: palabra buscada: diego
+INFO[07/01/2017 05:39:14 PM]: Obteniendo ambiente de lucene en busqueda
+INFO[07/01/2017 05:39:14 PM]: Creando hilo en el ambiente en busqueda
+INFO[07/01/2017 05:39:14 PM]: 127.0.0.1 - - [01/Jul/2017 17:39:14] "POST /search HTTP/1.1" 500 -
+INFO[07/01/2017 05:39:14 PM]: 127.0.0.1 - - [01/Jul/2017 17:39:14] "GET /search?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO[07/01/2017 05:39:14 PM]: 127.0.0.1 - - [01/Jul/2017 17:39:14] "GET /search?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO[07/01/2017 05:39:14 PM]: 127.0.0.1 - - [01/Jul/2017 17:39:14] "GET /search?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO[07/01/2017 05:39:14 PM]: 127.0.0.1 - - [01/Jul/2017 17:39:14] "GET /search?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO[07/01/2017 05:40:03 PM]:  * Detected change in '/home/nelson/Documentos/pathologyIndexer/src/controller.py', reloading
+INFO[07/01/2017 05:40:03 PM]:  * Restarting with stat
+INFO[07/01/2017 05:40:04 PM]: Archvo de log creado
+WARNING[07/01/2017 05:40:04 PM]:  * Debugger is active!
+INFO[07/01/2017 05:40:04 PM]:  * Debugger pin code: 286-912-043
+INFO[07/01/2017 05:40:06 PM]: Ingresando en la vista principal de la busqueda
+INFO[07/01/2017 05:40:06 PM]: 127.0.0.1 - - [01/Jul/2017 17:40:06] "GET /search HTTP/1.1" 200 -
+INFO[07/01/2017 05:40:09 PM]: Ingresando en la peticion para busqueda
+INFO[07/01/2017 05:40:09 PM]: palabra buscada: diego
+INFO[07/01/2017 05:40:09 PM]: Obteniendo ambiente de lucene en busqueda
+INFO[07/01/2017 05:40:09 PM]: Creando hilo en el ambiente en busqueda
+INFO[07/01/2017 05:40:09 PM]: Llamando a SimpleFSDirectory
+INFO[07/01/2017 05:40:09 PM]: Llamando a IndexSearcher
+INFO[07/01/2017 05:40:09 PM]: Llamando a StandardAnalyzer
+INFO[07/01/2017 05:40:09 PM]: Buscando palabra: diego
+INFO[07/01/2017 05:40:09 PM]: Obteniendo la lista de nombres: [[u'pato1.pdf', u'pathologyIndexer_Data/pato1.pdf/pato1.pdf', u'P\xe1gina 1\n\nInforme: 172-198\n\nNombres\n\nIdentificaci\xf3n:      \n\nTel\xe9fono\n\nEstudio\n\n(EXO-ENDO)EST COL BAS BPS VAR X1+EST COL BAS BPS UNA X1\n\nComfandi\n\nFecha entrega: viernes, 13 de Mayo de 2016\n\nEdad\n\n43\n\nG\xe9nero: F\n\nRemite <B>Diego</B> G\xf3mez\n\nDIAGN\xd3STICO\n\nEspecimen A) Rotulado "Exoc\xe9rvix". Biopsias.\nEspecimen']]
+INFO[07/01/2017 05:40:09 PM]: Renderizando template de busqueda con resultado
+INFO[07/01/2017 05:40:09 PM]: 127.0.0.1 - - [01/Jul/2017 17:40:09] "POST /search HTTP/1.1" 200 -
+INFO[07/01/2017 05:41:53 PM]:  * Detected change in '/home/nelson/Documentos/pathologyIndexer/src/IndexFiles.py', reloading
+INFO[07/01/2017 05:41:53 PM]:  * Restarting with stat
+INFO[07/01/2017 05:41:54 PM]: Archvo de log creado
+WARNING[07/01/2017 05:41:54 PM]:  * Debugger is active!
+INFO[07/01/2017 05:41:54 PM]:  * Debugger pin code: 286-912-043
+INFO[07/01/2017 05:42:17 PM]:  * Detected change in '/home/nelson/Documentos/pathologyIndexer/src/SearchFiles.py', reloading
+INFO[07/01/2017 05:42:17 PM]:  * Restarting with stat
+INFO[07/01/2017 05:42:18 PM]: Archvo de log creado
+WARNING[07/01/2017 05:42:18 PM]:  * Debugger is active!
+INFO[07/01/2017 05:42:18 PM]:  * Debugger pin code: 286-912-043
+INFO[07/01/2017 05:42:19 PM]: Ingresando en la vista principal de la busqueda
+INFO[07/01/2017 05:42:19 PM]: 127.0.0.1 - - [01/Jul/2017 17:42:19] "GET /search HTTP/1.1" 200 -
+INFO[07/01/2017 05:42:24 PM]: Ingresando en la peticion para busqueda
+INFO[07/01/2017 05:42:24 PM]: palabra buscada: diego
+INFO[07/01/2017 05:42:24 PM]: Obteniendo ambiente de lucene en busqueda
+INFO[07/01/2017 05:42:24 PM]: Creando hilo en el ambiente en busqueda
+INFO[07/01/2017 05:42:24 PM]: Llamando a SimpleFSDirectory
+INFO[07/01/2017 05:42:24 PM]: Llamando a IndexSearcher
+INFO[07/01/2017 05:42:24 PM]: Llamando a StandardAnalyzer
+INFO[07/01/2017 05:42:24 PM]: Buscando palabra: diego
+INFO[07/01/2017 05:42:24 PM]: Obteniendo la lista de nombres: [[u'pato1.pdf', u'pathologyIndexer_Data/pato1.pdf', u'P\xe1gina 1\n\nInforme: 172-198\n\nNombres\n\nIdentificaci\xf3n:      \n\nTel\xe9fono\n\nEstudio\n\n(EXO-ENDO)EST COL BAS BPS VAR X1+EST COL BAS BPS UNA X1\n\nComfandi\n\nFecha entrega: viernes, 13 de Mayo de 2016\n\nEdad\n\n43\n\nG\xe9nero: F\n\nRemite <B>Diego</B> G\xf3mez\n\nDIAGN\xd3STICO\n\nEspecimen A) Rotulado "Exoc\xe9rvix". Biopsias.\nEspecimen']]
+INFO[07/01/2017 05:42:24 PM]: Renderizando template de busqueda con resultado
+INFO[07/01/2017 05:42:24 PM]: 127.0.0.1 - - [01/Jul/2017 17:42:24] "POST /search HTTP/1.1" 200 -
+INFO[07/01/2017 05:42:41 PM]: Ingresando en la peticion para busqueda
+INFO[07/01/2017 05:42:41 PM]: palabra buscada: formol
+INFO[07/01/2017 05:42:41 PM]: Obteniendo ambiente de lucene en busqueda
+INFO[07/01/2017 05:42:41 PM]: Creando hilo en el ambiente en busqueda
+INFO[07/01/2017 05:42:41 PM]: Llamando a SimpleFSDirectory
+INFO[07/01/2017 05:42:41 PM]: Llamando a IndexSearcher
+INFO[07/01/2017 05:42:41 PM]: Llamando a StandardAnalyzer
+INFO[07/01/2017 05:42:41 PM]: Buscando palabra: formol
+INFO[07/01/2017 05:42:41 PM]: Obteniendo la lista de nombres: [[u'pato3.pdf', u'pathologyIndexer_Data/pato3.pdf', u' \nnormal. \n\nDESCRIPCI\xd3N MACROSC\xd3PICA\n\nEspecimen A) Rotulado "Exoc\xe9rvix": En <B>formol</B> se recibe un fragmento que mide 0.4 x 0.4 x 0.3 cm. Se procesa todo.\nEspecimen B) Rotulado "Endoc\xe9rvix": En <B>formol</B> se... MACROSC\xd3PICA\n\nEspecimen A) Rotulado "Exoc\xe9rvix": En <B>formol</B> se recibe un fragmento que mide 0.4 x 0.3 x 0.3'], [u'pato4.pdf', u'pathologyIndexer_Data/pato4.pdf', u'. \n\nDESCRIPCI\xd3N MACROSC\xd3PICA\n\nEsp\xe9cimen A) En <B>formol</B> se recibe un \xfatero que pesa 166 g. El di\xe1metro mayor en... izquierdo. \nEsp\xe9cimen B) En <B>formol</B> se recibe un fragmento de tejido, alargado, color pardo viol\xe1ceo, que... cuales \nmide 0.5 cm de di\xe1metro. Se procesan cortes representativos. \nEsp\xe9cimen D) En <B>formol</B> se recibe'], [u'pato1.pdf', u'pathologyIndexer_Data/pato1.pdf', u'. \n\nDESCRIPCI\xd3N MACROSC\xd3PICA\n\nEspecimen A) Rotulado "Exoc\xe9rvix": En <B>formol</B> se recibe un fragmento que mide 0.3 x 0.3 x 0.2 cm. Se procesa todo.\nEspecimen B) Rotulado "Endoc\xe9rvix": En <B>formol</B> se recibe varios'], [u'pato2.pdf', u'pathologyIndexer_Data/pato2.pdf', u') Mucosa duodenal normal. \n\nDESCRIPCI\xd3N MACROSC\xd3PICA\n\nEsp\xe9cimen A) En <B>formol</B> se recibe 14 fragmentos de... <B>formol</B> se recibe 3 fragmentos de tejido caracterizados microsc\xf3picamente como mucosa duodenal. \nSe... libres de compromiso.\n\nDESCRIPCI\xd3N MACROSC\xd3PICA\n\nEsp\xe9cimen A) En <B>formol</B> se recibe producto de']]
+INFO[07/01/2017 05:42:41 PM]: Renderizando template de busqueda con resultado
+INFO[07/01/2017 05:42:41 PM]: 127.0.0.1 - - [01/Jul/2017 17:42:41] "POST /search HTTP/1.1" 200 -
+INFO[07/01/2017 05:43:47 PM]: 127.0.0.1 - - [01/Jul/2017 17:43:47] "GET / HTTP/1.1" 200 -
+INFO[07/01/2017 07:20:06 PM]: Archvo de log creado
+INFO[07/01/2017 07:20:06 PM]:  * Running on http://0.0.0.0:8888/ (Press CTRL+C to quit)
+INFO[07/01/2017 07:20:06 PM]:  * Restarting with stat
+INFO[07/01/2017 07:20:07 PM]: Archvo de log creado
+WARNING[07/01/2017 07:20:07 PM]:  * Debugger is active!
+INFO[07/01/2017 07:20:07 PM]:  * Debugger pin code: 286-912-043
+INFO[07/01/2017 07:20:15 PM]: 127.0.0.1 - - [01/Jul/2017 19:20:15] "GET / HTTP/1.1" 200 -

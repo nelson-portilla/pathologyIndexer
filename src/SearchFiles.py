@@ -4,12 +4,18 @@ INDEX_DIR = "IndexFiles.index"
 
 import sys, os, lucene
 
+import logging
+from docs.config import *
+
 from java.nio.file import Paths
+from java.io import IOException
+from java.io import StringReader
 from org.apache.lucene.analysis.standard import StandardAnalyzer
 from org.apache.lucene.index import DirectoryReader
 from org.apache.lucene.queryparser.classic import QueryParser
 from org.apache.lucene.store import SimpleFSDirectory
 from org.apache.lucene.search import IndexSearcher
+from org.apache.lucene.search.highlight import *
 
 """
 This script is loosely based on the Lucene (java implementation) demo class
@@ -39,10 +45,27 @@ class SearchFiles(object):
         scoreDocs = searcher.search(query, 50).scoreDocs
         listanombres=[]
         listarutas=[]
+
+        #PARA HIGHLIGHT
+        print "%s total matching documents." % len(scoreDocs)
+        HighlightFormatter = SimpleHTMLFormatter();
+        highlighter = Highlighter(HighlightFormatter, QueryScorer (query))
+
         for scoreDoc in scoreDocs:
             doc = searcher.doc(scoreDoc.doc)
+            
+            ###
+            text = doc.get("contents")
+            ts = analyzer.tokenStream("contents", StringReader(text))
+            print doc.get("path")
+            #print highlighter.getBestFragments(ts, text, 3, "...")
+            print ""
+            ###
+
             # print 'path:', doc.get("path"), 'name:', doc.get("name")
-            listanombres.append([doc.get("name"),doc.get("path")+"/"+doc.get("name")])
+            listanombres.append([doc.get("name"),doc.get("path"),highlighter.getBestFragments(ts, text, 3, "...")])
+
+
 
     def getlistanombres(self):
         global listanombres, listarutas

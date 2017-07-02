@@ -50,7 +50,7 @@
 			<i>Digite una palabra a buscar:</i><br>
 			<input type="text" class="w3-input w3-border w3-animate-input" style="width:30%; margin-bottom:3px; background-color: white;" placeholder="Search.." name="id_entrada" id="id_entrada"> 
 			<Button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon glyphicon-search"></span>Buscar!</Button>
-			<Button type="button" onclick="limpiar()" class="btn btn-danger"><span class="glyphicons glyphicon glyphicon-trash"></span> Limpiar</Button>
+			<!-- <Button type="button" onclick="limpiar()" class="btn btn-danger"><span class="glyphicons glyphicon glyphicon-trash"></span> Limpiar</Button> -->
 			<Button type="button" onclick="location.href='/'" class="btn btn-info"><span class="glyphicons glyphicon glyphicon-chevron-left"></span> volver</Button>
 			</form>
 		</div>
@@ -69,13 +69,15 @@
 			      <tr>
 			        <th style="color: blue;">Nombre</th>
 			        <th style="color: blue;">Ruta del Archivo</th>
+			        <th style="color: blue;">Contenido</th>
 			      </tr>
 			      </thead>
 			    <tbody>
 				 	{% for nombre in nombres %}
 				 	<tr>
 				    	<td>{{nombre.0}}</td>
-				    	<td><a href={{nombre.1}}>{{nombre.1}}</a></td>				    	
+				    	<td><a target="_blank" href="http://localhost/{{nombre.1}}">http://localhost/{{nombre.1}}</a></td>	
+				    	<td>{{nombre.2 | safe }}</td>			    	
 					</tr>
 				     {% endfor %}
 				</tbody>
