@@ -40,15 +40,15 @@ class Controller():
             datefmt='%m/%d/%Y %I:%M:%S %p',filemode='a')
         logging.info("Archvo de log creado")
 
-    @app.route('/')
-    def cargar():
-        global folder_path, folder_index
-        #folder_path="/home/nelson/Documentos/pathologyIndexer/data"
-        #folder_index="/home/nelson/Documentos/pathologyIndexer/index2"
-        return render_template('index.html')
-        logging.info("Cargando Template")
+    # @app.route('/')
+    # def cargar():
+    #     global folder_path, folder_index
+    #     #folder_path="/home/nelson/Documentos/pathologyIndexer/data"
+    #     #folder_index="/home/nelson/Documentos/pathologyIndexer/index2"
+    #     return render_template('index.html')
+    #     logging.info("Cargando Template")
 
-    @app.route('/', methods=['POST'])
+    @app.route('/')
     def indexar():
         global folder_path, folder_index
         #folder_path = str(request.form['folder_path'])
@@ -74,7 +74,7 @@ class Controller():
 
         # return render_template('index.html', objetos=["a", "b", "c"], texto="Texto Resultado", resultado="Total Resultados:")
         logging.info("Renderizando template en la indexacion")
-        return render_template('index.html', cantidad="Se indexaron "+str(count)+" documentos! :)")
+        return render_template('search.html', resultado="Se indexaron "+str(count)+" documentos! :)")
 
     @app.route('/search')
     def busqueda():
@@ -82,7 +82,7 @@ class Controller():
         return render_template('search.html')
         
 
-    @app.route('/search', methods=['POST'])
+    @app.route('/', methods=['POST'])
     def buscar():
         global folder_path, folder_index
         logging.info("Ingresando en la peticion para busqueda")
