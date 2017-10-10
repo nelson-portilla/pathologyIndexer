@@ -89,7 +89,7 @@ class Controller():
         # print folder_path
         # print folder_index
         logging.info("palabra buscada: "+request.form['id_entrada'])
-        palabra = str(request.form['id_entrada'])
+        palabra = str(request.form['id_entrada']).replace('"', "").replace(":","").replace(".","").replace(",","").replace(";","").replace("'","")
         logging.info("Obteniendo ambiente de lucene en busqueda")
         vm_env = lucene.getVMEnv()
         logging.info("Creando hilo en el ambiente en busqueda")
@@ -110,7 +110,7 @@ class Controller():
         #print "Lista controller: ",listanombres
         # print "Entro"
         logging.info("Renderizando template de busqueda con resultado")
-        return render_template('search.html', nombres=listanombres, resultado=str("Se encontraron "+str(len(listanombres))+" documentos!."))
+        return render_template('search.html', texto=palabra, nombres=listanombres, resultado=str("Se encontraron "+str(len(listanombres))+" documentos!."))
 
 
 if __name__=='__main__':
